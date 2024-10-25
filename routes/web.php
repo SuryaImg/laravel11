@@ -23,4 +23,8 @@ Route::middleware(['auth','verify_admin','revalidate'])->group(function () {
     Route::resource('users', UserController::class);
 });
 
+Route::get('phpinfo', function(){
+    return phpinfo();
+});
+
 require __DIR__.'/auth.php';

@@ -72,6 +72,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <p class="text-uppercase text-sm">Image</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="example-text-input" class="form-control-label">Image</label>
+                                        <input class="form-control" type="file" name="image" multiple>                                            
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
