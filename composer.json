@@ -9,6 +9,7 @@
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
+        "league/glide": "^2.3",
         "php-flasher/flasher-toastr-laravel": "^1.15",
         "php-open-source-saver/jwt-auth": "^2.3",
         "predis/predis": "^2.2",
@@ -16,6 +17,7 @@
         "spatie/laravel-permission": "^6.4"
     },
     "require-dev": {
+        "brianium/paratest": "^7.4",
         "fakerphp/faker": "^1.23",
         "laravel/breeze": "^2.0",
         "laravel/pint": "^1.13",
